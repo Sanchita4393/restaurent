@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASTE HEAVEN WEBSITE DEMO</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Taste Heaven</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Welcome to Taste Heaven</h2>
+            <p>Experience exquisite dining with every bite.</p><br>
+            <a href="#menu" class="btn">Explore Our Menu</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>your new culinary oasis in the heart of the city! We are dedicated to providing an unforgettable dining experience with a menu crafted from the freshest, locally sourced ingredients.</p>
+        <div class="about-icons">
+            <div><i class="fas fa-utensils fa-3x"></i><p>Quality Ingredients</p></div>
+            <div><i class="fas fa-wine-glass-alt fa-3x"></i><p>Fine Wines</p></div>
+            <div><i class="fas fa-users fa-3x"></i><p>Great Service</p></div>
+        </div>
+    </section>
+
+    <section id="menu" class="section menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-container">
+            <div class="menu-category">
+                <h3>Appetizers</h3>
+                <ul>
+                    <li>Honey Garlic Chicken Wings - Rs.399 </li>
+                    <li>Stuffed Avocado - Rs.449 </li>
+                    <li>Brushetta Trio - Rs.349 </li>
+                </ul>
+            </div>
+            <div class="menu-category">
+                <h3>Main Courses</h3>
+                <ul>
+                    <li>Grilled Chicken - Rs.399 </li>
+                    <li>Vegetable Curry - Rs.349 </li>
+                    <li>Pasta Primavera - Rs.449 </li>
+                </ul>
+            </div>
+            <div class="menu-category">
+                <h3>Desserts</h3>
+                <ul>
+                    <li>Chocolate Lava Cake - Rs.249 </li>
+                    <li>Tiramisu - Rs.299 </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="res 1.jpeg" alt="Delicious Dish 1">
+            <img src="dish 2.jpeg" alt="Delicious Dish 2">
+            <img src="res 2.jpeg" alt="Delicious Dish 3">
+            <img src="dish 1.jpeg" alt="Delicious Dish 4">
+            <img src="res 3.jpeg" alt="Delicious Dish 5">
+            <img src="dish 3.jpeg" alt="Delicious Dish 6">
+        </div>
+    </section>
+
+    <section id="location" class="section">
+        <h2>Find Us</h2>
+        <p>Visit us at:</p>
+        <address>
+            123 London treet <br>
+            opp to XYZ Mall <br>
+            <br>
+        </address>
+        <p><a href="https://maps.app.goo.gl/gp4ZZw1TsiSTPkde9" target="_blank" class="btn">View on Google Maps</a></p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us For Booking Tables</h2>
+        <form action="#" method="POST">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+</body>
+</html>
